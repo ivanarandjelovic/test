@@ -19,7 +19,7 @@ type Configuration struct {
 }
 
 /**
- * Load configuration object. on master on b1
+ * Load configuration object.
  */
 func loadConfiguration() (configuration Configuration, err error) {
 	file, _ := os.Open("test_conf.json")
