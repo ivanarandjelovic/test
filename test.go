@@ -13,7 +13,7 @@ type Man struct {
 	Alive    bool
 }
 
-//Configuration Represents whole configuration object
+//Configuration Represents whole configuration object.
 type Configuration struct {
 	Users  []string
 	Groups []string
