@@ -18,6 +18,9 @@ type Configuration struct {
 	People []Man
 }
 
+/**
+ * Load configuration object
+ */
 func loadConfiguration() (configuration Configuration, err error) {
 	file, _ := os.Open("test_conf.json")
 	decoder := json.NewDecoder(file)
