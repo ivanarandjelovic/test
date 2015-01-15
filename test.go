@@ -6,12 +6,14 @@ import (
 	"os"
 )
 
+// Man Represnets one person, kind of.
 type Man struct {
 	Name     string
 	LastName string
 	Alive    bool
 }
 
+//Configuration Represents whole configuration object
 type Configuration struct {
 	Users  []string
 	Groups []string

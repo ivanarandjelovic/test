@@ -4,5 +4,6 @@
 	"People": [
 	  {"Name": "Ivan", "LastName": "Arandjelovic", "Alive":true}
 	, {"Name": "Ivan2", "LastName": "Arandjelovic2", "Alive":false}
+	, {"Name": "Ivan3", "LastName": "Arandjelovic3", "Alive":true}
 	]
 }
