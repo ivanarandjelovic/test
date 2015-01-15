@@ -1,0 +1,8 @@
+{
+    "Users": ["UserA","UserB"],
+    "Groups": ["GroupA"],
+	"People": [
+	  {"Name": "Ivan", "LastName": "Arandjelovic", "Alive":true}
+	, {"Name": "Ivan2", "LastName": "Arandjelovic2", "Alive":false}
+	]
+}
