@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"io/ioutil"
 	"os"
 )
 
@@ -25,6 +26,10 @@ type Configuration struct {
  */
 func loadConfiguration() (configuration Configuration, err error) {
 	file, _ := os.Open("test_conf.json")
+	content, err := ioutil.ReadFile("test_conf.json")
+	if err != nil {
+		fmt.Println("content: ", content)
+	}
 	decoder := json.NewDecoder(file)
 	configuration = Configuration{}
 	err = decoder.Decode(&configuration)
